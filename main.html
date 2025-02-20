@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detector</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        textarea { width: 80%; height: 100px; }
+    </style>
+</head>
+<body>
+    <h2>Fake News Detector</h2>
+    <form method="post">
+        <textarea name="news_text" placeholder="Enter news text..."></textarea><br>
+        <button type="submit">Check</button>
+    </form>
+    <h3>Prediction: {{ result }}</h3>
+</body>
+</html>
